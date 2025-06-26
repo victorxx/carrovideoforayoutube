@@ -136,7 +136,7 @@
 
   <main>
     <video controls poster="https://www.seusite.com.br/thumbs/carros.jpg">
-      <source src="carropotente.mp4" type="video/mp4">
+      <source src="fusca.mp4" type="video/mp4">
     </video>
     <p>ESSE MOTOR V8 RUGE COMO NUNCA!</p>
   </main>
@@ -144,7 +144,7 @@
 
   <footer>
     <div id="ads">
-      <iframe src="link.html"></iframe>
+      <iframe src="links.html"></iframe>
     </div>
     <p>&copy; atualizado eternamente.</p>
   </footer>
