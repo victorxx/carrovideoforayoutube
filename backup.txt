@@ -138,7 +138,14 @@
     <video controls poster="https://www.seusite.com.br/thumbs/carros.jpg">
       <source src="fusca.mp4" type="video/mp4">
     </video>
-    <p>ESSE MOTOR V8 RUGE COMO NUNCA!</p>
+    <p>Fusca turbo</p>
+  </main>
+
+  <main>
+    <video controls poster="https://www.seusite.com.br/thumbs/carros.jpg">
+      <source src="golturbo.mp4" type="video/mp4">
+    </video>
+    <p>gol turbo dando pau na bmw</p>
   </main>
 
 
