@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="pt-BR">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Seu Nome">
+  <meta name="designer" content="Seu Nome">
+  <meta name="publisher" content="Seu Nome ou Canal">
+  <meta name="description" content="Vídeos automotivos incríveis! Avaliações, motores potentes, tunados e muito mais sobre o mundo dos carros.">
+  <meta name="keywords" content="vídeos de carros, carros tunados, motores potentes, carros esportivos, conteúdo automotivo, avaliações de carros, carros brasileiros, velocidade, drifting">
+  <meta name="theme-color" content="#f9f9f9">
+  <link rel="canonical" href="https://www.seusite.com.br/carros">
+
+  <meta property="og:type" content="video.other">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://www.seusite.com.br/carros">
+  <meta property="og:title" content="Vídeos de Carros Incríveis e Potentes">
+  <meta property="og:description" content="Assista aos vídeos mais emocionantes sobre carros. Conteúdo original com adrenalina e potência.">
+  <meta property="og:image" content="https://www.seusite.com.br/thumbs/carros.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta property="og:site_name" content="Seu Nome ou Canal">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vídeos de Carros Incríveis e Potentes">
+  <meta name="twitter:description" content="Assista aos vídeos mais insanos sobre carros tunados, esportivos e mais.">
+  <meta name="twitter:image" content="https://www.seusite.com.br/thumbs/carros.jpg">
+  <meta name="twitter:creator" content="@seunome">
+
+  <link rel="icon" href="https://www.seusite.com.br/favicon.ico" type="image/x-icon">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Vídeo Automotivo Exclusivo",
+    "description": "Um vídeo original com carros incríveis e motores potentes. Acelera com a gente!",
+    "thumbnailUrl": "https://www.seusite.com.br/thumbs/carros.jpg",
+    "uploadDate": "2025-06-25T08:00:00+00:00",
+    "contentUrl": "https://www.seusite.com.br/videos/carropotente.mp4",
+    "embedUrl": "https://www.seusite.com.br/carros",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Seu Nome ou Canal",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.seusite.com.br/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <title>Vídeos de Carros Incríveis e Potentes - Acelere com Estilo</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    #ads {
+      color: white;
+      font-size: large;
+      position: fixed;
+      bottom: 200px;
+      left: 20%;
+      background-color: #d62300;
+      border-radius: 8px;
+      border: none;
+      padding: 50px 66px;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+      width: 10%;
+    }
+
+    header {
+      background-color: green;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    #atualizacao {
+      text-align: center;
+      margin: 20px 0;
+      font-weight: bold;
+      color: #444;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Vídeos de Carros Potentes</h1>
+    <p>Acelere conosco e veja os motores mais insanos em ação!</p>
+  </header>
+
+  <div id="atualizacao"></div>
+
+  <main>
+    <video controls poster="https://www.seusite.com.br/thumbs/carros.jpg">
+      <source src="carropotente.mp4" type="video/mp4">
+    </video>
+    <p>ESSE MOTOR V8 RUGE COMO NUNCA!</p>
+  </main>
+
+
+  <footer>
+    <div id="ads">
+      <iframe src="link.html"></iframe>
+    </div>
+    <p>&copy; atualizado eternamente.</p>
+  </footer>
+
+  <script>
+    const dataAtual = new Date();
+    const opcoes = { day: '2-digit', month: '2-digit', year: 'numeric' };
+    document.getElementById("atualizacao").textContent =
+      "Última atualização: " + dataAtual.toLocaleDateString('pt-BR', opcoes);
+  </script>
+
+</body>
+</html>
